@@ -13,6 +13,14 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 		/>
 		<title>Stephen D. Sulimani</title>
+		<script>
+			(function titleScroller(text) {
+				document.title = text;
+				setTimeout(function () {
+					titleScroller(text.substr(1) + text.substr(0, 1));
+				}, 500);
+			})(" Stephen Diamond Sulimani ");
+		</script>
 	</head>
 
 	<body>
@@ -23,7 +31,7 @@
 			</p>
 		</nav>
 		<div class="page-container">
-			<div class="sidebar">
+			<div class="sidebar" id="sidebar">
 				<section class="splash">
 					<h1>Stephen<br />Diamond<br />Sulimani</h1>
 					<img
@@ -63,7 +71,7 @@
 				<section>
 					<h2>Honors and Awards</h2>
 					<dl>
-						<dt>HOPE Scholarship</dt>
+						<dt>HOPE Scholarship Recipient</dt>
 						<dd>Spring 2021 - Present</dd>
 						<dt>Presidential Scholar</dt>
 						<dd>Spring 2021, Fall 2021, Spring 2022, Spring 2023</dd>
@@ -239,7 +247,7 @@
 		</div>
 		<footer>
 			&copy; <a href="contact.html">Stephen D. Sulimani</a>&nbsp;
-			<a href="https://linkedin.com/in/stephensulimani"
+			<a href="https://linkedin.com/in/stephensulimani" target="_blank"
 				><i class="fa-brands fa-linkedin-in"></i>
 			</a>
 		</footer>

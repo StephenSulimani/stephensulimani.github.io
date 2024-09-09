@@ -20,6 +20,7 @@ dl > dd {
 
 body {
 	margin: 0 0 0 0;
+	background-color: #f4f6f7;
 }
 
 nav {
@@ -91,7 +92,7 @@ footer > a {
 }
 
 hr {
-	border-top: 5px solid black;
+	border-top: 4px solid black;
 	border-radius: 100%;
 }
 
